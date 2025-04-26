@@ -6,7 +6,7 @@ type Details = {
 type Page = {
     title: string, 
     likes: number,
-    accounts: [],
+    accounts: string[],
     status: 'open' | 'close',
     details?: Details,
 }
